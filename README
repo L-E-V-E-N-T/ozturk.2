@@ -1,1 +1,33 @@
-readmeFile
+This program finds the subset that is equal to the line's first number when added all.
+
+	Please see following execute options
+		h Print a help message and exit
+                i lets you enter the input file name
+                o lets you enter the output file name
+                t lets you define time to end the program
+
+However, -t option is working. To show my knowledge here:
+
+I know that I should do it with signal handler,
+Signal handlers have their own default task,
+You can override it by writing a handler function for that signal and pass it to the signal
+I know what should I do in the handler:
+I should store pid values in a global array
+When time is done, 
+I should close all open files,
+I should kill all the created process including the parent,
+and than exit.
+
+I know that I will have unexpected problems when writing these and
+this is why I didn't attempt to do it. I hope this is not a huge portion
+of the project. I got late to submit the project and didn't attempt to write this part.
+
+The executable name is logParse
+
+For the version control system, you can check out the following link.
+I have used the internal git system in my machine and uploaded the
+beginning and the final product of this project to my GitHub page.
+
+https://github.com/L-E-V-E-N-T/ozturk.2
+
+
